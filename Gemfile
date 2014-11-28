@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+#ruby '2.0.0'
 
 gem 'rails', '4.1.7'
 # Use sqlite3 as the database for Active Record
@@ -34,8 +34,7 @@ group :doc do
 	gem 'sdoc', require: false
 end
 
-
-gem 'spring',        group: :development
+# gem 'spring',        group: :development
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 # Use ActiveModel has_secure_password
